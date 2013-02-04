@@ -25,7 +25,8 @@ prefs:
   :bootstrap: sass
   :form_builder: simple_form
   :email: none
-  :authentication: none
+  :authentication: devise
+  :devise_modules: default
   :authorization: none
   :quiet_assets: true
   :better_errors: true
