@@ -1,6 +1,7 @@
 recipes:
 - setup
 - readme
+- git
 - gems
 - testing
 - email
@@ -37,6 +38,7 @@ prefs:
 gems:
 - kaminari
 - pg
+- active_scaffold
 
 args:
   :skip_test_unit: yes
