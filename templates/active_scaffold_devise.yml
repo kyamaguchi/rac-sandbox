@@ -1,0 +1,41 @@
+recipes:
+- setup
+- readme
+- git
+- gems
+- testing
+- email
+- models
+- controllers
+- views
+- routes
+- extras
+
+prefs:
+  :starter_app: none
+  :dev_webserver: thin
+  :prod_webserver: unicorn
+  :database: sqlite
+  :templates: erb
+  :unit_test: test_unit
+  :integration: capybara
+  :fixtures: factory_girl
+  :form_builder: none
+  :email: sendgrid
+  :authentication: devise
+  :devise_modules: default
+  :authorization: none
+  :quiet_assets: true
+  :better_errors: true
+  :local_env_file: false
+  :ban_spiders: false
+  :jsruntime: true
+  :rvmrc: false
+  :github: false
+
+gems:
+- active_scaffold
+
+args:
+  :skip_test_unit: yes
+  :skip_active_record: false
