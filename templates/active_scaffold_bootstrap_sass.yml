@@ -2,6 +2,7 @@ recipes:
 - setup
 - readme
 - git
+- init
 - gems
 - testing
 - email
@@ -19,27 +20,28 @@ prefs:
   :database: sqlite
   :templates: haml
   :unit_test: rspec
+  :continuous_testing: guard
   :integration: capybara
   :fixtures: factory_girl
   :frontend: bootstrap
   :bootstrap: sass
   :form_builder: simple_form
   :email: none
-  :authentication: devise
-  :devise_modules: default
+  :authentication: none
   :authorization: none
   :quiet_assets: true
   :better_errors: true
   :local_env_file: false
-  :ban_spiders: false
+  :ban_spiders: true
   :jsruntime: true
-  :rvmrc: false
+  :rvmrc: true
   :github: false
 
 gems:
 - kaminari
 - pg
 - active_scaffold
+- mechanize
 
 args:
   :skip_test_unit: yes
