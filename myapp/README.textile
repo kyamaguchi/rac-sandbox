@@ -4,7 +4,7 @@ This application was generated with the "rails_apps_composer":https://github.com
 
 h2. Diagnostics
 
-This application was built with recipes that are NOT known to work together.
+This application was built with recipes that are known to work together.
 
 This application was built with preferences that are NOT known to work together.
 
@@ -16,14 +16,14 @@ Recipes:
 ["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
 
 Preferences:
-{:git=>true, :apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"unicorn", :database=>"sqlite", :templates=>"haml", :unit_test=>"rspec", :integration=>"rspec-capybara", :continuous_testing=>"guard", :fixtures=>"factory_girl", :frontend=>"bootstrap", :bootstrap=>"sass", :email=>"sendgrid", :authentication=>"none", :authorization=>"none", :form_builder=>"simple_form", :starter_app=>"none", :rvmrc=>false, :quiet_assets=>true, :local_env_file=>true, :better_errors=>true, :ban_spiders=>true}
+{:apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"unicorn", :database=>"sqlite", :templates=>"haml", :unit_test=>"rspec", :integration=>"rspec-capybara", :continuous_testing=>"guard", :fixtures=>"factory_girl", :frontend=>"bootstrap", :bootstrap=>"sass", :email=>"sendgrid", :authentication=>"none", :authorization=>"none", :form_builder=>"simple_form", :starter_app=>"none", :ban_spiders=>true, :github=>false, :local_env_file=>true, :quiet_assets=>true, :better_errors=>true, :rvmrc=>false, :git=>true}
 
 h2. Ruby on Rails
 
 This application requires:
 
 * Ruby version 2.0.0
-* Rails version 4.0.0
+* Rails version 4.0.2
 
 Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
 
@@ -35,7 +35,7 @@ h2. Development
 
 * Template Engine: Haml
 * Testing Framework: RSpec and Factory Girl
-* Front-end Framework: Twitter Bootstrap (Sass)
+* Front-end Framework: None
 * Form Builder: SimpleForm
 * Authentication: None
 * Authorization: None

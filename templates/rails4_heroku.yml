@@ -1,0 +1,51 @@
+recipes:
+# - admin
+- apps4
+- core
+- email
+- gems
+- git
+- readme
+- setup
+- frontend
+- init
+- controllers
+- models
+- routes
+- views
+- extras
+- testing
+
+prefs:
+  # :admin: rails_admin / activeadmin
+  :apps4: none
+  :dev_webserver: thin
+  :prod_webserver: unicorn
+  :database: sqlite
+  :templates: haml
+  :unit_test: rspec
+  :integration: rspec-capybara
+  :continuous_testing: guard
+  :fixtures: factory_girl
+  :frontend: bootstrap
+  :bootstrap: sass
+  :email: sendgrid
+  :authentication: none
+  :authorization: none
+  :form_builder: simple_form
+  :starter_app: none
+  :ban_spiders: true
+  :github: false
+  :local_env_file: true
+  :quiet_assets: true
+  :better_errors: true
+  :rvmrc: false
+
+gems:
+- pg
+- rails_12factor
+
+args:
+  :skip_test_unit: yes
+  :skip_active_record: false
+
